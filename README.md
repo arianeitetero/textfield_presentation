@@ -1,17 +1,17 @@
-# textfield_presentation
+# Text Field Demo
 
-A new Flutter project.
+A small Flutter app that shows how text fields work.
 
-## Getting Started
+## What it does
 
-This project is a starting point for a Flutter application.
+- Lets you enter your name and displays a greeting.
+- Shows a read-only field that you cannot edit.
+- Shows how to hide text, like a password.
+- Shows a text field that can use multiple lines.
 
-A few resources to get you started if this is your first Flutter project:
+## Run the app
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Install Flutter.
+2. Open this project folder in a terminal.
+3. Run `flutter pub get`.
+4. Run `flutter run`.
