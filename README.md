@@ -1,7 +1,5 @@
 # Text Field Demo
 
-A small Flutter app that shows how text fields work.
-
 ## What it does
 
 - Lets you enter your name and displays a greeting.
