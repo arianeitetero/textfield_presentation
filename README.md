@@ -11,9 +11,9 @@ A Flutter demo of `TextField` in a simple name-entry form, with examples of read
 
 ## Three TextField properties
 
-- **`readOnly`** — Defaults to `false`, so the field can be edited. Setting it to `true` prevents edits while still displaying the value, useful for fields such as generated references.
-- **`obscureText`** — Defaults to `false`, so entered characters are visible. Setting it to `true` hides them, which is useful for password-like input.
-- **`maxLines`** — Defaults to `1`. Setting it to `3` makes the field taller for multi-line input, useful for longer notes or messages.
+- **`readOnly`**  Defaults to `false`, so the field can be edited. Setting it to `true` prevents edits while still displaying the value, useful for fields such as generated references.
+- **`obscureText`**  Defaults to `false`, so entered characters are visible. Setting it to `true` hides them, which is useful for password-like input.
+- **`maxLines`**  Defaults to `1`. Setting it to `3` makes the field taller for multi-line input, useful for longer notes or messages.
 
 ## Screenshots
 
@@ -28,3 +28,7 @@ Entered name and property examples:
 Empty-name validation:
 
 ![TextField demo showing empty-name validation](screenshots/validation-state.png)
+
+## Presentation date
+
+October 12, 2026
