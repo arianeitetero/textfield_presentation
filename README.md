@@ -1,34 +1,28 @@
 # TextField Demo
 
-A Flutter demo of `TextField` in a simple name-entry form, with examples of read-only input, hidden text, and multi-line input.
+This app asks for a name and shows a greeting. It also shows three TextField properties.
 
-## Run
+## Run the app
 
-1. Install the Flutter SDK.
-2. Open this project directory in a terminal.
-3. Run `flutter pub get`.
-4. Run `flutter run`.
+Run these commands in the project folder:
 
-## Three TextField properties
+```sh
+flutter pub get
+flutter run
+```
 
-- **`readOnly`**  Defaults to `false`, so the field can be edited. Setting it to `true` prevents edits while still displaying the value, useful for fields such as generated references.
-- **`obscureText`**  Defaults to `false`, so entered characters are visible. Setting it to `true` hides them, which is useful for password-like input.
-- **`maxLines`**  Defaults to `1`. Setting it to `3` makes the field taller for multi-line input, useful for longer notes or messages.
+## Properties
+
+- **`readOnly`**: The default is `false`, so you can type in the field. Set it to `true` to stop edits.
+- **`obscureText`**: The default is `false`, so you can see what you type. Set it to `true` to hide the text.
+- **`maxLines`**: The default is `1`. Set it to `3` to make room for text on three lines.
 
 ## Screenshots
 
-Initial form:
+![The app before entering a name](screenshots/default-state.png)
 
-![TextField demo initial state](screenshots/default-state.png)
+![The app with a greeting and property examples](screenshots/properties-demo.png)
 
-Entered name and property examples:
+![The app showing a message when the name is empty](screenshots/validation-state.png)
 
-![TextField demo with entered text and property examples](screenshots/properties-demo.png)
-
-Empty-name validation:
-
-![TextField demo showing empty-name validation](screenshots/validation-state.png)
-
-## Presentation date
-
-October 12, 2026
+Presentation date: October 12, 2026.
