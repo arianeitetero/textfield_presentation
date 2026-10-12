@@ -28,7 +28,3 @@ Entered name and property examples:
 Empty-name validation:
 
 ![TextField demo showing empty-name validation](screenshots/validation-state.png)
-
-## Submission reminder
-
-Submit the public repository link in Canvas before 5:00 PM on presentation day. Include your in-class presentation date in the Canvas comment.
